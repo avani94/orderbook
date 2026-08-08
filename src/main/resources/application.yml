@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: matching-engine
+
+# Datasource, JPA, and WebSocket config land in later steps (DB layer, REST/WS layer).
+# Running `mvn spring-boot:run` before then will fail since no DataSource is configured yet.
